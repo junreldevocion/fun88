@@ -14,9 +14,10 @@ const Main: React.FC<MainProps> = ({ imageUrl, isActive, title, description, tex
 
   return (
     <div
+      style={{ backgroundImage: `url(${imageUrl})` }}
       className={classNames(
         "w-full h-[180px] rounded-lg",
-        "bg-[url(/images/banner-bg.png)] bg-no-repeat bg-cover absolute",
+        `bg-no-repeat bg-cover absolute`,
         "duration-700 ease-in-out",
         !isActive ? `opacity-0` : 'opacity-1'
       )}

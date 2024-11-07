@@ -4,10 +4,10 @@ import Main from "./Main"
 import { useState } from "react"
 
 const CAROUSEL_IMAGES = [
-  { url: '/images/banner-bg.png', id: 1, title: 'RESCUE 1', description: 'BONUS 1', text: 'WE ARE HERE FOR YOU 1' },
-  { url: '/images/banner-bg.png', id: 2, title: 'RESCUE 2', description: 'BONUS 2', text: 'WE ARE HERE FOR YOU 2' },
-  { url: '/images/banner-bg.png', id: 3, title: 'RESCUE 3', description: 'BONUS 3', text: 'WE ARE HERE FOR YOU 3' },
-  { url: '/images/banner-bg.png', id: 4, title: 'RESCUE 4', description: 'BONUS 4', text: 'WE ARE HERE FOR YOU 4' },
+  { url: 'images/banner-bg.png', id: 1, title: 'RESCUE 1', description: 'BONUS 1', text: 'WE ARE HERE FOR YOU 1' },
+  { url: 'images/banner-bg.png', id: 2, title: 'RESCUE 2', description: 'BONUS 2', text: 'WE ARE HERE FOR YOU 2' },
+  { url: 'images/banner-bg.png', id: 3, title: 'RESCUE 3', description: 'BONUS 3', text: 'WE ARE HERE FOR YOU 3' },
+  { url: 'images/banner-bg.png', id: 4, title: 'RESCUE 4', description: 'BONUS 4', text: 'WE ARE HERE FOR YOU 4' },
 ]
 
 const Slider = () => {
