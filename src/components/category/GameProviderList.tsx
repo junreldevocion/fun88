@@ -9,11 +9,7 @@ import Button from "../common/button/Button";
 import SVGWrapper from "../common/wrapper/SVGWrapper";
 import DUMMY_GAME_PROVIDERS from "./game-provider-list";
 
-const GameProviderList: React.FC = () =>
-// {
-//   closeMenu,
-// } : GameProviderListProps
-{
+const GameProviderList: React.FC = () => {
   const { state, dispatch } = useRootContext();
   const { handleSetFilter, filters } = useFilter();
 

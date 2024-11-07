@@ -13,6 +13,8 @@ const GameProviderMenu = () => {
     return state?.gameProvider?.showMenu;
   }, [state?.gameProvider?.showMenu]);
 
+  if (!state?.gameProvider.showMenu) return null
+
   return (
     <>
       <div
@@ -20,6 +22,7 @@ const GameProviderMenu = () => {
           "w-screen fixed top-0 left-0",
           "overflow-y-auto overflow-x-hidden",
           "bg-black/50 transition-all duration-100 ease-in",
+          "z-30",
           showGameProviderMenu
             ? "h-screen max-h-screen opacity-100"
             : "h-0 opacity-0"
